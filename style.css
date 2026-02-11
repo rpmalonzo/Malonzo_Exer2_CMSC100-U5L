@@ -1,10 +1,4 @@
 /* Color styling of website */
-:root {
-    --bg-dark: #050a18;
-    --card-bg: #0b1426;
-    --blue-accent: #007bff;
-    --text-white: #ffffff;
-}
 
 body {
     background-color: #050a18;
@@ -112,6 +106,29 @@ body {
     padding: 30px;
     border-radius: 15px;
     flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 15px 0 10px 0;
+    font-size: 1.5rem;
+}
+
+
+.project-icon {
+    width: 100%; 
+    max-width: 250px;
+    height: 180;
+    margin-bottom: 15px; 
+    display: block; 
+    border-radius:10px;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
 }
 
 /* Programming and Management */
